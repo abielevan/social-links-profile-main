@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    font-family: Inter;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    background-color: hsl(0, 0%, 12%);
+    width: 365px;
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 36px;
+    text-align: center;
+}
+.card-header h1{
+    font-size: 24px;
+    font-weight: 150px;
+    
+}
+.card-header p{
+    color: hsl(75, 94%, 57%);
+}
+.profile-pict img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+.profile-pict img:hover{
+    transform: scale(1.2);
+    border-radius: 0px;
+}
+.card-main{
+    margin-top: 30px;
+    
+}
+.sub-link{
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 13px;
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.sub-link:hover{
+    transform: scale(1.1);
+    
+}
+.sub-link p:hover{
+    color: hsl(75, 94%, 57%);
+}
+
+.attribution{
+    margin-top: 24px;
+}
